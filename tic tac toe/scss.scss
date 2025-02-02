@@ -1,0 +1,29 @@
+#board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+    width: 315px;
+    margin: 50px auto;
+  }
+  .cell {
+    width: 100px;
+    height: 100px;
+    font-size: 3em;
+    text-align: center;
+    line-height: 100px;
+    border: 1px solid #333;
+    cursor: pointer;
+    user-select: none;
+  }
+  #message {
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 20px;
+  }
+  #reset {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+  }
